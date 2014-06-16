@@ -1,0 +1,6 @@
+http://git-scm.com/documentation
+sambitmohapatra/sampledirectory
+in cmd write git <-|
+git clone url<-
+cd sampledirectory<-get into directory
+git status<- shows status
