@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<!-- 
+
+  This mapping demonstrates 
+
+-->
+
+<hibernate-mapping>
+	
+	<class name="SampleBean" table="sambitdatabase.sample1">
+		<id name="id" type="long" column="idsample">
+		 <generator class="identity">
+		<!-- <param name="table">sambitdatabase.sample1</param>
+		 <param name="column">idsample</param>
+		 <param name="max_lo">50</param> -->
+		 </generator> 
+		 </id>
+		<property name="address" column="address"/>
+	</class>
+</hibernate-mapping>
